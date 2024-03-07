@@ -57,7 +57,7 @@ else :
                   
             # Give some info if and only if they like flowers
             if flowers == "y":
-                print("There is a sale on at the local florist")        
+                print("There is a sale on roses and sunflowers at the local florist")        
             
             # Give some suggestion on TV if they like TV, and if they have Netflix
             if tv == "y":
