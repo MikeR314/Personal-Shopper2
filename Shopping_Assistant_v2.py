@@ -42,7 +42,7 @@ else :
         if sports == "y":
             football = input("Do you watch football (y/n) : ").lower()
             if football == "y":
-                team = input("Which team do you support? : ")
+                team_name = input("Which team do you support? : ")
         if jewellery != "y" and flowers != "y" and tv != "y" and sports != "y":
             print("Wow, you're a tricky one. Maybe an Amazon voucher would work for you")
         else :
@@ -70,7 +70,7 @@ else :
             if sports == "y":
                 # If yes, find out which team to provide a suggestion
                 if football == "y":
-                    print(f"You can buy {team} shirts at their online store")
+                    print(f"You can buy {team_name} shirts at their online store")
                 # If not, give a non-football specific sport recommendation
                 else :
                     print("You can buy general sports clothing at Sports Direct")
